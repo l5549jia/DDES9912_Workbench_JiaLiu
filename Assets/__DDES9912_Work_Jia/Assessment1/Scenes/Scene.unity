@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 19877236}
   - component: {fileID: 19877235}
   m_Layer: 0
-  m_Name: Cylinder_Middle_S (3)
+  m_Name: Sign_Small2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -380,11 +380,10 @@ Transform:
   - {fileID: 1960025582}
   - {fileID: 1618310315}
   - {fileID: 1192232648}
-  - {fileID: 858948473}
   - {fileID: 929910868}
   - {fileID: 217219177}
   - {fileID: 896421422}
-  - {fileID: 364438091}
+  - {fileID: 858948473}
   - {fileID: 1812657617}
   - {fileID: 1938376070}
   - {fileID: 271976473}
@@ -424,7 +423,7 @@ GameObject:
   - component: {fileID: 42603075}
   - component: {fileID: 42603074}
   m_Layer: 0
-  m_Name: Cylinder_Middle_S (2)
+  m_Name: Sign_Big1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -557,8 +556,8 @@ Transform:
   - {fileID: 1383391945}
   - {fileID: 1339977822}
   - {fileID: 957958700}
-  - {fileID: 140386023}
   - {fileID: 919956556}
+  - {fileID: 140386023}
   - {fileID: 1798070811}
   m_Father: {fileID: 1411663640}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -704,7 +703,7 @@ GameObject:
   - component: {fileID: 92249025}
   - component: {fileID: 92249024}
   m_Layer: 0
-  m_Name: Cylinder_Middle_S (1)
+  m_Name: Sign_Small1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +816,7 @@ GameObject:
   - component: {fileID: 99574698}
   - component: {fileID: 99574697}
   m_Layer: 0
-  m_Name: Cylinder_Middle (3)
+  m_Name: Small Toothed Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1286,7 +1285,7 @@ GameObject:
   - component: {fileID: 140386021}
   - component: {fileID: 140386020}
   m_Layer: 0
-  m_Name: Cylinder_Middle (16)
+  m_Name: Link
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1399,7 +1398,7 @@ GameObject:
   - component: {fileID: 141395121}
   - component: {fileID: 141395120}
   m_Layer: 0
-  m_Name: Cylinder_Middle (17)
+  m_Name: Air Valve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1750,7 +1749,7 @@ GameObject:
   - component: {fileID: 217219179}
   - component: {fileID: 217219178}
   m_Layer: 0
-  m_Name: Cylinder_Middle (13)
+  m_Name: Arm_R_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1974,7 +1973,7 @@ GameObject:
   - component: {fileID: 261134040}
   - component: {fileID: 261134039}
   m_Layer: 0
-  m_Name: Cylinder_Middle (2)
+  m_Name: Base_Connect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2087,7 +2086,7 @@ GameObject:
   - component: {fileID: 271976475}
   - component: {fileID: 271976474}
   m_Layer: 0
-  m_Name: Cylinder_Middle (12)
+  m_Name: Link_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2311,7 +2310,7 @@ GameObject:
   - component: {fileID: 334476431}
   - component: {fileID: 334476430}
   m_Layer: 0
-  m_Name: Cylinder_Middle (10)
+  m_Name: Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2525,119 +2524,6 @@ MonoBehaviour:
   rangeFactor: 0.2
   bobSpeed: 250
   isActive: 1
---- !u!1 &364438090
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 364438091}
-  - component: {fileID: 364438094}
-  - component: {fileID: 364438093}
-  - component: {fileID: 364438092}
-  m_Layer: 0
-  m_Name: Cylinder_Middle (11)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &364438091
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364438090}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: -0.236, y: -0.134, z: 0.088}
-  m_LocalScale: {x: 0.014780043, y: 0.03812767, z: 0.014780043}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 34645406}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
---- !u!136 &364438092
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364438090}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &364438093
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364438090}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &364438094
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 364438090}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &438735994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,7 +2537,7 @@ GameObject:
   - component: {fileID: 438735996}
   - component: {fileID: 438735995}
   m_Layer: 0
-  m_Name: Cylinder_Middle (8)
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2764,7 +2650,7 @@ GameObject:
   - component: {fileID: 440385268}
   - component: {fileID: 440385267}
   m_Layer: 0
-  m_Name: Cube (3)
+  m_Name: Base_Cylinder2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2875,7 +2761,7 @@ GameObject:
   - component: {fileID: 519142338}
   - component: {fileID: 519142337}
   m_Layer: 0
-  m_Name: Cylinder_Middle (9)
+  m_Name: Link
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3341,7 +3227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.77
       objectReference: {fileID: 0}
     - target: {fileID: 5477663902695651912, guid: df63664dbdd376b4298726771ab129fa, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3484,7 +3370,7 @@ Transform:
   - {fileID: 18749078}
   - {fileID: 1213817071}
   - {fileID: 992437424}
-  m_Father: {fileID: 1411663640}
+  m_Father: {fileID: 1450875837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &782649425
 GameObject:
@@ -3499,7 +3385,7 @@ GameObject:
   - component: {fileID: 782649427}
   - component: {fileID: 782649426}
   m_Layer: 0
-  m_Name: Cylinder_Middle_S
+  m_Name: Crankshaft_Long
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3612,7 +3498,7 @@ GameObject:
   - component: {fileID: 788348509}
   - component: {fileID: 788348508}
   m_Layer: 0
-  m_Name: Cylinder_Middle_S (4)
+  m_Name: Sign_Big2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3838,7 +3724,7 @@ GameObject:
   - component: {fileID: 829214492}
   - component: {fileID: 829214491}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Connect
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3853,11 +3739,11 @@ Transform:
   m_GameObject: {fileID: 829214489}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7287538, w: 0.6847758}
-  m_LocalPosition: {x: -0.15699998, y: 3.1009998, z: 0}
-  m_LocalScale: {x: 0.0077069737, y: 0.7722182, z: 0.043990005}
+  m_LocalPosition: {x: -0.15699996, y: 3.1009996, z: 0}
+  m_LocalScale: {x: 0.0077069723, y: 0.7722181, z: 0.04399}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1411663640}
+  m_Father: {fileID: 1957756135}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -93.564}
 --- !u!65 &829214491
 BoxCollider:
@@ -3949,7 +3835,7 @@ GameObject:
   - component: {fileID: 834228241}
   - component: {fileID: 834228240}
   m_Layer: 0
-  m_Name: Cube (6)
+  m_Name: Link
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4060,7 +3946,7 @@ GameObject:
   - component: {fileID: 852032266}
   - component: {fileID: 852032265}
   m_Layer: 0
-  m_Name: Cylinder_Small
+  m_Name: Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4173,7 +4059,7 @@ GameObject:
   - component: {fileID: 858948471}
   - component: {fileID: 858948470}
   m_Layer: 0
-  m_Name: Cylinder_Middle (8)
+  m_Name: Link_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4286,7 +4172,7 @@ GameObject:
   - component: {fileID: 868752458}
   - component: {fileID: 868752457}
   m_Layer: 0
-  m_Name: Cube (7)
+  m_Name: Air Valve Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4541,7 +4427,7 @@ GameObject:
   - component: {fileID: 896421424}
   - component: {fileID: 896421423}
   m_Layer: 0
-  m_Name: Cylinder_Middle (10)
+  m_Name: Sleeve
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4878,7 +4764,7 @@ GameObject:
   - component: {fileID: 919956554}
   - component: {fileID: 919956553}
   m_Layer: 0
-  m_Name: Cylinder_Middle (14)
+  m_Name: Rotating_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5104,7 +4990,7 @@ GameObject:
   - component: {fileID: 929910870}
   - component: {fileID: 929910869}
   m_Layer: 0
-  m_Name: Cylinder_Middle (9)
+  m_Name: Arm_L_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5386,7 +5272,7 @@ GameObject:
   - component: {fileID: 957958698}
   - component: {fileID: 957958697}
   m_Layer: 0
-  m_Name: Cylinder_Middle (13)
+  m_Name: Rotating_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5654,12 +5540,12 @@ Transform:
   m_Children:
   - {fileID: 141395119}
   - {fileID: 868752456}
+  - {fileID: 1572096711}
+  - {fileID: 519142340}
   - {fileID: 357121473}
   - {fileID: 1359397649}
   - {fileID: 1947421373}
-  - {fileID: 1572096711}
   - {fileID: 438735998}
-  - {fileID: 519142340}
   m_Father: {fileID: 1411663640}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &992437423
@@ -6612,7 +6498,7 @@ GameObject:
   - component: {fileID: 1192232650}
   - component: {fileID: 1192232649}
   m_Layer: 0
-  m_Name: Cylinder_Middle (7)
+  m_Name: Arm_R_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7304,7 +7190,7 @@ GameObject:
   - component: {fileID: 1310587336}
   - component: {fileID: 1310587335}
   m_Layer: 0
-  m_Name: Cylinder_Middle (4)
+  m_Name: Shaft_Main_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7417,7 +7303,7 @@ GameObject:
   - component: {fileID: 1339977820}
   - component: {fileID: 1339977819}
   m_Layer: 0
-  m_Name: Cylinder_Middle (15)
+  m_Name: Connecting_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7530,7 +7416,7 @@ GameObject:
   - component: {fileID: 1352427269}
   - component: {fileID: 1352427268}
   m_Layer: 0
-  m_Name: Cylinder_Middle (16)
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7545,11 +7431,11 @@ Transform:
   m_GameObject: {fileID: 1352427266}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.565, y: 3.1439998, z: 0}
+  m_LocalPosition: {x: -0.56499994, y: 3.1439996, z: 0}
   m_LocalScale: {x: 0.1259318, y: 0.033337165, z: 0.1259318}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1411663640}
+  m_Father: {fileID: 1957756135}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!136 &1352427268
 CapsuleCollider:
@@ -7643,7 +7529,7 @@ GameObject:
   - component: {fileID: 1358012718}
   - component: {fileID: 1358012717}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7754,7 +7640,7 @@ GameObject:
   - component: {fileID: 1359397647}
   - component: {fileID: 1359397646}
   m_Layer: 0
-  m_Name: Cylinder_Middle (5)
+  m_Name: Shaft_Inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7899,7 +7785,7 @@ GameObject:
   - component: {fileID: 1383391943}
   - component: {fileID: 1383391942}
   m_Layer: 0
-  m_Name: Cylinder_Middle (12)
+  m_Name: Connecting_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8254,16 +8140,12 @@ Transform:
   m_Children:
   - {fileID: 1450875837}
   - {fileID: 1957756135}
-  - {fileID: 1352427267}
-  - {fileID: 829214490}
   - {fileID: 941638153}
   - {fileID: 34645406}
   - {fileID: 876126025}
   - {fileID: 989543083}
   - {fileID: 1360858412}
   - {fileID: 56146158}
-  - {fileID: 2007491906}
-  - {fileID: 705351344}
   - {fileID: 336604118}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8298,6 +8180,8 @@ Transform:
   m_Children:
   - {fileID: 1591374070}
   - {fileID: 1398539560}
+  - {fileID: 705351344}
+  - {fileID: 2007491906}
   m_Father: {fileID: 1411663640}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1487743859
@@ -8313,7 +8197,7 @@ GameObject:
   - component: {fileID: 1487743861}
   - component: {fileID: 1487743860}
   m_Layer: 0
-  m_Name: Cylinder (1)
+  m_Name: Piston_Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8426,7 +8310,7 @@ GameObject:
   - component: {fileID: 1495138330}
   - component: {fileID: 1495138329}
   m_Layer: 0
-  m_Name: Cylinder_Middle_B
+  m_Name: Crankshaft_Short
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8539,7 +8423,7 @@ GameObject:
   - component: {fileID: 1504060948}
   - component: {fileID: 1504060947}
   m_Layer: 0
-  m_Name: Cylinder (2)
+  m_Name: Piston_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8652,7 +8536,7 @@ GameObject:
   - component: {fileID: 1572096709}
   - component: {fileID: 1572096708}
   m_Layer: 0
-  m_Name: Cylinder_Middle (7)
+  m_Name: Rod_Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8765,7 +8649,7 @@ GameObject:
   - component: {fileID: 1591374068}
   - component: {fileID: 1591374067}
   m_Layer: 0
-  m_Name: Cube (4)
+  m_Name: Slide Valve Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8876,7 +8760,7 @@ GameObject:
   - component: {fileID: 1618310317}
   - component: {fileID: 1618310316}
   m_Layer: 0
-  m_Name: Cylinder_Middle (6)
+  m_Name: Arm_L_T
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8989,7 +8873,7 @@ GameObject:
   - component: {fileID: 1656785198}
   - component: {fileID: 1656785197}
   m_Layer: 0
-  m_Name: Cylinder_Middle (4)
+  m_Name: Big Toothed Wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9102,7 +8986,7 @@ GameObject:
   - component: {fileID: 1699360606}
   - component: {fileID: 1699360605}
   m_Layer: 0
-  m_Name: Cylinder_Big
+  m_Name: Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9326,7 +9210,7 @@ GameObject:
   - component: {fileID: 1792213611}
   - component: {fileID: 1792213610}
   m_Layer: 0
-  m_Name: Cube (2)
+  m_Name: Base_Cylinder1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9690,7 +9574,7 @@ GameObject:
   - component: {fileID: 1812657619}
   - component: {fileID: 1812657618}
   m_Layer: 0
-  m_Name: Cylinder_Middle (14)
+  m_Name: Link_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9759,7 +9643,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: b189fc0ec06715f408d1652d6728d309, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9803,7 +9687,7 @@ GameObject:
   - component: {fileID: 1900085581}
   - component: {fileID: 1900085580}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Ball_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9914,7 +9798,7 @@ GameObject:
   - component: {fileID: 1938376072}
   - component: {fileID: 1938376071}
   m_Layer: 0
-  m_Name: Cylinder_Middle (15)
+  m_Name: Link_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10138,7 +10022,7 @@ GameObject:
   - component: {fileID: 1947421371}
   - component: {fileID: 1947421370}
   m_Layer: 0
-  m_Name: Cylinder_Middle (6)
+  m_Name: Shaft_Outside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10251,7 +10135,7 @@ GameObject:
   - component: {fileID: 1954987549}
   - component: {fileID: 1954987548}
   m_Layer: 0
-  m_Name: Cylinder_Middle (3)
+  m_Name: Shaft_Main_Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10387,6 +10271,8 @@ Transform:
   - {fileID: 261134042}
   - {fileID: 99574700}
   - {fileID: 1656785200}
+  - {fileID: 1352427267}
+  - {fileID: 829214490}
   m_Father: {fileID: 1411663640}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960025578
@@ -10402,7 +10288,7 @@ GameObject:
   - component: {fileID: 1960025580}
   - component: {fileID: 1960025579}
   m_Layer: 0
-  m_Name: Cylinder_Middle (5)
+  m_Name: Shaft_Main_Middle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10762,7 +10648,7 @@ Transform:
   - {fileID: 2124592628}
   - {fileID: 1981167002}
   - {fileID: 818904254}
-  m_Father: {fileID: 1411663640}
+  m_Father: {fileID: 1450875837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2016989600
 GameObject:
@@ -10777,7 +10663,7 @@ GameObject:
   - component: {fileID: 2016989602}
   - component: {fileID: 2016989601}
   m_Layer: 0
-  m_Name: Cube (5)
+  m_Name: Connrcting Rod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11225,7 +11111,7 @@ GameObject:
   - component: {fileID: 2131497481}
   - component: {fileID: 2131497480}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Ball_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11336,7 +11222,7 @@ GameObject:
   - component: {fileID: 2137020997}
   - component: {fileID: 2137020996}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Base_Toothed Wheels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

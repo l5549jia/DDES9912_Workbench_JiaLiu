@@ -2,32 +2,34 @@ using UnityEngine;
 
 public class SpinY_Ball: MonoBehaviour
 {
-    public float ySpeed;
-    public bool isActive = true; 
+    public float ySpeed;          // Current rotation speed around Y-axis
+    public bool isActive = true;  // Whether rotation is active
 
-    public float slowY = 120f;
-    public float normalY = 360f;
-    public float fastY = 720f;
-    public int speedMode = 1; 
+    public float slowY = 120f;    // Slow rotation speed (deg/sec)
+    public float normalY = 360f;  // Normal rotation speed
+    public float fastY = 720f;    // Fast rotation speed
+    public int speedMode = 1;     // 0 = slow, 1 = normal, 2 = fast
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        ySpeed = normalY;
+        ySpeed = normalY; // Default speed at start
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!isActive) return;
-        transform.Rotate(0, ySpeed * Time.deltaTime, 0);
+        if (!isActive) return; // Stop rotation when inactive
+        transform.Rotate(0, ySpeed * Time.deltaTime, 0); // Rotate around Y-axis
     }
 
+    // Toggle rotation on/off (for Start/Stop button)
     public void ToggleActive()
     {
         isActive = !isActive;
     }
 
+    // Switch between slow / normal / fast speed modes (for Speed button)
     public void SwitchSpeed()
     {
         speedMode = (speedMode + 1) % 3;
